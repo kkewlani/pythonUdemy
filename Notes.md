@@ -45,3 +45,13 @@ Execute this on python command line to get details.
 * dictionary - {"k","v"}
 * dir()
 * help()
+* with - Example: ```with open("myFile", "w") as myfile:``` will take care of closing the resources once the with block 
+finishes and even take care of it in case of exceptions/errors
+* 
+
+## Useful Modules
+* datetime - ```from datetime import datetime```. Some cmds - ```datetime.now() ```
+    * strftime("<format>") - for creating custom format can use the different Data formatting COdes used in python
+    
+
+## Date Format Table
