@@ -14,6 +14,7 @@ index where list[2] == list[-1]
         for slicing 
 * Tuple - Immutable List
 * Dict - Dictionary aka Map
+* Exception Handling - try... except
 
 ## Modules and Packages
 Python have modules, packages and libraries which can be imported in python ode.
@@ -41,13 +42,18 @@ Execute this on python command line to get details.
 * from datetime import datetime
 * date.now(), date.strptime, date.strftime
 * list - [a ,b ,c], list indexing
+* zip - to be used with for loop having multiple variables iterating on multiple ranges
 * tuple - Immutable List
 * dictionary - {"k","v"}
 * dir()
 * help()
 * with - Example: ```with open("myFile", "w") as myfile:``` will take care of closing the resources once the with block 
 finishes and even take care of it in case of exceptions/errors
-* 
+* [] - Used for defining a Tuple
+* () - Used for defining a List
+* {} - Used for defining a dictionary
+* try... except - ```try: ... except [exceptionName]: ...```
+
 
 ## Useful Modules
 * datetime - ```from datetime import datetime```. Some cmds - ```datetime.now() ```
@@ -55,3 +61,6 @@ finishes and even take care of it in case of exceptions/errors
     
 
 ## Date Format Table
+
+## Abbreviations/Syntax/Glossary
+* [value] - Square brackets in notes means that value is optional

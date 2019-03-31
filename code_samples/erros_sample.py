@@ -1,0 +1,10 @@
+print(1)
+int(9)
+a = int(2.8)
+print(2)
+print(3)
+b = "c"
+c = chr(b)
+print(c)
+#print(a+int(chr(b)))
+print(a,b)
